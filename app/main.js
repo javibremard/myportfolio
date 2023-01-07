@@ -244,6 +244,7 @@ function imageresponsive2(x) {
                 let imagencabezaporsid = document.getElementById("imagencabezaporsid");
                 imagencabezaporsid.style.display = "none";
                     
+                  
                  
                 let footerdesaparece = document.getElementById("footemail");
                 let footerdesaparece1 = document.getElementById("footinsta");    
