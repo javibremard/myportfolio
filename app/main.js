@@ -164,6 +164,7 @@ console.log(mywindowwidth / 8);
               paddingTop: 20,
               paddingBottom: 20,
           
+          
             });
             
             var material2 = new Blotter.Material();
