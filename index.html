@@ -51,9 +51,12 @@
         <div class="containlogo">
             
             <div  id="mmm">
-                <div class="imagencabezaporsicontainer">
-                <img class="imagencabezaporsi" id="imagencabezaporsid" src="./assets/img/SushiHead.png" alt="">
+                
             </div>
+                <div class="containheadsushi" id="imagencabezaporsid">
+                <div class="imagencabezaporsicontainer">
+                <img class="imagencabezaporsi" src="./assets/img/SushiHead.png" alt="">
+                </div>
             </div>
             
             <div id="namePresents" class="namepresentation">
@@ -319,11 +322,10 @@
                             ON THE RUN</a> ↰
                         </div>
                     <p class="workdescription paddingparagraph">
-                        Animation made for the final project of animation class.
+                        Animation made for the final project of an animation course.
                          </p>
                          <p class="workdescription paddingparagraph"> 
-                            This project was based on carrying out all the production stages of an animated short film, starting from a small narrative: 
-                        </p>
+                            This project consists of carrying out all the production stages of an animated short film, starting from a small narrative:                        </p>
                         <p class="workdescription paddingparagraph"> 
                             Storytelling, script, character design, storyboards, visual style, animation layout and editing. 
                         </p>
@@ -347,8 +349,7 @@
                                 Animation made for the final project of animation course.
                             </p>
                             <p class="paddingparagraph"> 
-                                This project was based on carrying out all the production stages of an animated short film, starting from a small narrative:
-                            </p>
+                                This project consists of carrying out all the production stages of an animated short film, starting from a small narrative:                            </p>
                             <p class="paddingparagraph"> 
                                 Storytelling, script, character design, storyboards, visual style, animation layout and editing.
                             </p>
@@ -773,6 +774,7 @@ x.addListener(myFunction) // Attach listener function on state changes
                 arrowmenu.innerHTML = "↧";
                 let navbarmenu = document.getElementById("navbarmenu");
                 navbarmenu.style.width = "100%";
+                
 
                
 			} else if (index == 9) {
@@ -781,7 +783,7 @@ x.addListener(myFunction) // Attach listener function on state changes
             
             
             else {
-               
+                
             }
 
 
@@ -789,6 +791,7 @@ x.addListener(myFunction) // Attach listener function on state changes
     },
     afterRender: function() {
       console.log('done rendering!');
+      
     }
   });
 });
