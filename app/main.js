@@ -284,7 +284,13 @@ for (let i = 0; i < clickformore.length; i++) {
                 
               });
             hideinfo[i].classList.toggle("hiddenelement");
+
+            var textinfohide = document.querySelectorAll('.textinfohide');
             
+            for (let i = 0; i < textinfohide .length; i++) {
+                textinfohide[i].classList.toggle("hidediv");
+
+            }
             
                 }
                 var imagework = document.querySelectorAll('.imagework');
